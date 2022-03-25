@@ -1,0 +1,30 @@
+.form_group {
+    width: 100%;
+    display: flex;
+}
+
+
+.form_group>input {
+    flex-grow: 2;
+    margin-right: 20px;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+.form_group>input:focus {
+    outline: none;
+}
+
+.form_group>input::placeholder {
+    color: #ccc !important;
+}
+
+
+.button_yellow {
+    background-color: yellow;
+    flex-grow: 1;
+
+    color: black;
+}

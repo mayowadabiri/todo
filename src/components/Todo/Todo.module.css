@@ -1,0 +1,36 @@
+.todo {
+    padding: 0;
+    margin: 40px 0;
+    list-style: none;
+}
+
+.todo_item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.todo_text {
+    font-size: 20px;
+}
+
+.todo_btns>button {
+    width: 100px;
+
+}
+
+.todo_btns>button:not(:last-of-type) {
+    margin-right: 20px
+}
+
+.button_yellow {
+    background-color: yellow;
+    color: black;
+}
+
+.button_yellow {
+    background-color: yellow;
+    color: black;
+}
